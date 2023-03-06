@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "homepage": "https://github.com/v1nh1shungry/openai-translator",
+    "url": "https://github.com/v1nh1shungry/openai-translator/releases/download/0.0.1/openai-translator.zip",
+    "hash": "9971b9eaac8615759845cfcb8b1bb0626491a69341e657b3ece7408e996b8618",
+    "extract_dir": "openai-translator",
+    "persist": "config.json",
+    "shortcuts": [
+        [
+            "openai-translator.exe",
+            "OpenAI Translator"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/v1nh1shungry/openai-translator/releases/download/$version/openai-translator.zip"
+    }
+}
