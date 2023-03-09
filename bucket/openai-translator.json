@@ -1,18 +1,18 @@
 {
-    "version": "0.0.1",
-    "homepage": "https://github.com/v1nh1shungry/openai-translator",
-    "url": "https://github.com/v1nh1shungry/openai-translator/releases/download/0.0.1/openai-translator.zip",
-    "hash": "9971b9eaac8615759845cfcb8b1bb0626491a69341e657b3ece7408e996b8618",
-    "extract_dir": "openai-translator",
-    "persist": "config.json",
+    "version": "0.0.14",
+    "description": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用",
+    "homepage": "https://github.com/yetone/openai-translator",
+    "license": "MIT",
+    "url": "https://github.com/yetone/openai-translator/releases/download/v0.0.14/OpenAI-Translator-0.0.14-ia32-win.zip",
+    "hash": "6992759c473fcc5a36ebe69543d00883edca33061a51b28272fa73247e43b810",
     "shortcuts": [
         [
-            "openai-translator.exe",
+            "OpenAI Translator.exe",
             "OpenAI Translator"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/v1nh1shungry/openai-translator/releases/download/$version/openai-translator.zip"
+        "url": "https://github.com/yetone/openai-translator/releases/download/v$version/OpenAI-Translator-$version-ia32-win.zip"
     }
 }
