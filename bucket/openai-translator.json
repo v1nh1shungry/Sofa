@@ -1,5 +1,5 @@
 {
-    "version": "0.0.14",
+    "version": "0.0.15",
     "description": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用",
     "homepage": "https://github.com/yetone/openai-translator",
     "license": "MIT",
