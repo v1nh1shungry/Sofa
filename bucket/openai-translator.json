@@ -3,8 +3,9 @@
     "description": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用",
     "homepage": "https://github.com/yetone/openai-translator",
     "license": "MIT",
-    "url": "https://github.com/yetone/openai-translator/releases/download/v0.0.14/OpenAI-Translator-0.0.14-ia32-win.zip",
-    "hash": "6992759c473fcc5a36ebe69543d00883edca33061a51b28272fa73247e43b810",
+    "url": "https://github.com/yetone/openai-translator/releases/download/v0.0.15/OpenAI.Translator_0.0.15_x64_en-US.msi",
+    "hash": "6440b88a9659eb48ba27b64c297a9fc326c4f3ff74e3ae3c9ef488d2f202ada4",
+    "extract_dir": "PFiles\\OpenAI Translator",
     "shortcuts": [
         [
             "OpenAI Translator.exe",
@@ -13,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/yetone/openai-translator/releases/download/v$version/OpenAI-Translator-$version-ia32-win.zip"
+        "url": "https://github.com/yetone/openai-translator/releases/download/v$version/OpenAI.Translator_$version_x64_en-US.msi"
     }
 }
