@@ -1,10 +1,10 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A visual no-code/code-free web crawler/spider易采集：一个可视化爬虫软件，可以无代码图形化的设计和执行爬虫任务",
     "homepage": "http://www.easyspider.org/",
     "license": "GPL-3.0",
-    "url": "https://github.com/NaiboWang/EasySpider/releases/download/v0.3.1/EasySpider_0.3.1_windows_x64.7z",
-    "hash": "E9AC694B69750F6B4CE04F2466B1831C7F32D4D51E0F5454BDC48A4D104AF42A",
+    "url": "https://github.com/NaiboWang/EasySpider/releases/download/v0.3.2/EasySpider_0.3.2_windows_x64.7z",
+    "hash": "280cf86e9837f40f42b663819ef9a45ad12b0c98ae00f2c8c9ed798c4e00ecf1",
     "extract_dir": "EasySpider_windows_amd64",
     "shortcuts": [
         [
