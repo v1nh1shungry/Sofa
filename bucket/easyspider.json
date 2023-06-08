@@ -5,7 +5,7 @@
     "license": "GPL-3.0",
     "url": "https://github.com/NaiboWang/EasySpider/releases/download/v0.3.2/EasySpider_0.3.2_windows_x64.7z",
     "hash": "280cf86e9837f40f42b663819ef9a45ad12b0c98ae00f2c8c9ed798c4e00ecf1",
-    "extract_dir": "EasySpider_windows_amd64",
+    "extract_dir": "EasySpider_windows_x64",
     "shortcuts": [
         [
             "EasySpider.exe",
