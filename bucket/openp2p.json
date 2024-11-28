@@ -7,6 +7,12 @@
     "hash": "627e360fc7e88403ee6502c57790d848fe3f51131450eda666cbe8b55aec5d50",
     "bin": "openp2p.exe",
     "checkver": "github",
+    "persist": ["config.json"],
+    "pre_install": [
+        "if (!(Test-Path -Path \"$persist_dir\\config.json\")) {",
+        "   New-Item -Path \"$dir\" -Name \"config.json\" -ItemType \"file\" -Value \"{}\"",
+        "}"
+    ],
     "autoupdate": {
         "url": "https://github.com/openp2p-cn/openp2p/releases/download/v$version/openp2p$version.windows-amd64.zip"
     }
