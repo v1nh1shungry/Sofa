@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "autoupdate": {
+        "url": "https://github.com/builtbybel/FluentCleaner/releases/download/$version/FluentCleaner-win-x64.zip"
+    },
+    "checkver": "github",
+    "description": "A real WinUI desktop cleaner with terminal control and multi-database support",
+    "extract_dir": "FluentCleaner-win-x64",
+    "hash": "sha256:11b2d1485f1e3b09f16633e9a2c601288265e6a3d8283f547aec83f36f787c28",
+    "homepage": "https://github.com/builtbybel/FluentCleaner",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "FCleaner.exe",
+            "Fluent Cleaner"
+        ]
+    ],
+    "url": "https://github.com/builtbybel/FluentCleaner/releases/download/26.06.04/FluentCleaner-win-x64.zip",
+    "version": "26.06.04"
+}
