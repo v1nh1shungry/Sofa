@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "autoupdate": {
+        "url": "https://github.com/xishang0128/sparkle/releases/download/$version/sparkle-windows-$version-x64-portable.7z"
+    },
+    "checkver": "github",
+    "description": "Another Mihomo GUI",
+    "hash": "sha256:7b00c8c6b103a145b20c0288b6fdbe7bcd5f21bd19b10ddcb2dcaf793759d455",
+    "homepage": "https://github.com/xishang0128/sparkle",
+    "license": "GPL-3.0-only",
+    "shortcuts": [
+        [
+            "Sparkle.exe",
+            "Sparkle"
+        ]
+    ],
+    "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.6/sparkle-windows-1.26.6-x64-portable.7z",
+    "version": "1.26.6"
+}
