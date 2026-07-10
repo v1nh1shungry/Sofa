@@ -1,10 +1,10 @@
 {
-    "version": "2.26.1",
-    "description": "A lightweight alternative to the Lenovo Vantage Software created for Lenovo Legion laptops",
-    "homepage": "https://github.com/BartoszCichecki/LenovoLegionToolkit",
-    "license": "MIT",
-    "url": "https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/download/2.26.1/LenovoLegionToolkitSetup.exe",
-    "hash": "e7aa9309d4da33ced84e990afbdce08b67966663c2a87909361d451d62d10ec2",
+    "version": "2.34.0.0",
+    "description": "Lenovo Legion Toolkit (LLT) is a Windows desktop utility created for Lenovo gaming laptops that replaces Lenovo Vantage, Legion Zone, and Legion Space.",
+    "homepage": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.34.0.0/LenovoLegionToolkitSetup-v2.34.0.0.exe",
+    "hash": "8638c82fb25c34e78ade49f4cbe25f2f125d6520d141cbbbd45c7d5cc219fc2b",
     "innosetup": true,
     "shortcuts": [
         [
@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/download/$version/LenovoLegionToolkitSetup.exe"
+        "url": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v$version/LenovoLegionToolkitSetup-v$version.exe"
     }
 }
