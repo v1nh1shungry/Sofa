@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "autoupdate": {
+        "url": "https://github.com/builtbybel/FluentCleaner/releases/download/$version/FluentCleaner-Classic-net48.zip"
+    },
+    "checkver": "github",
+    "description": "FluentCleaner is the transparent, community-powered CCleaner alternative for Windows.",
+    "extract_dir": "FluentCleaner-Classic-net48",
+    "hash": "42703e673cff81eb9d2ec7f8eacaaf93fa009915ffca40e54b63ba789d80fe85",
+    "homepage": "https://github.com/builtbybel/FluentCleaner",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "FCleaner.Classic.exe",
+            "Fluent Cleaner Classic"
+        ]
+    ],
+    "url": "https://github.com/builtbybel/FluentCleaner/releases/download/26.09.01/FluentCleaner-Classic-net48.zip",
+    "version": "26.09.01"
+}
